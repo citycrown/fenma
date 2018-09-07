@@ -14,12 +14,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.0.BUILD-SNAPSHOT</version>
+		<version>1.5.4.RELEASE</version>
 	</parent>
 
 	<modules>
 		<module>fenma-eureka-server</module>
 		<module>fenma-eureka-client</module>
+		<module>fenma-eureka-consumer</module>
 	</modules>
 
 	<properties>
@@ -32,6 +33,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
